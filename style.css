@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: brown;
+}
+ /* main container   */
+#stopwatch-container {
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    left: 33%;
+    height: 300px;
+    width: 500px;
+    background-color: rgb(235, 165, 74);
+    text-align: center;
+}
+ /* timer display container  */
+#display-timer {
+    width: 70%;
+    position: relative;
+    left: 14%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: rgb(43, 226, 195);
+    padding: 5px;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+/* button styling  */
+.btn {
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+    color: rgb(255, 252, 252);
+    color: black; 
+    font-size: 30px;
+    display: inline-block;
+    margin: 4px;
+}
+ /* to showing particular  timer  */
+span {
+    display: block;
+    font-size: 40px;
+    bottom:20%;
+}
+
+ /* buttons colours  */
+#str-btn{
+    background-color:greenyellow;
+    
+
+}
+#str-btn:hover{
+    background-color:green;
+}
+#stp-btn{
+    background-color: red;
+
+}
+#stp-btn:hover{
+    background-color: brown;
+}
+
+#rest-btn{
+    background-color: yellow;
+}
+#rest-btn:hover{
+    background-color: darkgoldenrod;
+}
